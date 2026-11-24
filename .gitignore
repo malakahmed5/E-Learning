@@ -1,0 +1,19 @@
+# Build output
+bin/
+obj/
+.vs/
+*.user
+
+# Test output
+TestResults/
+web/test-results/
+web/playwright-report/
+web/e2e-results.json
+
+# Frontend
+web/node_modules/
+web/dist/
+
+# Local settings with passwords. Copy appsettings.Development.example.json and fill in your own values.
+E-Learning/appsettings.Development.json
+web/e2e/.e2e-state.json
